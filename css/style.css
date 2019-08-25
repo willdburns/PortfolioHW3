@@ -14,7 +14,7 @@ body{
 }
 
 .navbar{
-    background-image: linear-gradient(to right, #318BF5,#0952A8);
+    background-image: linear-gradient(to right, #7364E0,#211480);
     padding: 0 !important;
 }
 
@@ -48,7 +48,6 @@ body{
 /*-------Banner Section--------*/
 
 #banner{
-    background-image: linear-gradient(to right, #318BF5,#0952A8);
     color: black;
     padding-top: 5%; 
 }
@@ -79,12 +78,18 @@ body{
 /*--------Services Section----------*/
 
 #services{
-    padding: 80px 0;
+    padding: 40px 20px;
 }
 
 .service-img{
-    width: 100px;
-    margin-top: 100px;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.service-img2{
+    width: 400px;
+    margin-top: 150px;
+    margin-bottom: 30px;
 }
 
 .services{
@@ -99,26 +104,24 @@ body{
 
 .title::before{
     content: '';
-    background: #318BF5;
+    background: #211480;
     height: 5px;
-    width: 200px;
-    margin-left: auto;
+    width: 170px;
     margin-right: auto;
     display: block;
-    transform: translateY(63px);
+    transform: translateY(60px);
 }
 
-.title::after{
+#bar::before{
     content: '';
-    background: #318BF5;
-    height: 10px;
-    width: 50px;
-    margin-left: auto;
+    background: #211480;
+    height: 5px;
+    width: 240px;
     margin-right: auto;
-    margin-bottom: 40px;
     display: block;
-    transform: translateY(8px);
+    transform: translateY(60px);
 }
+
 
 #services .btn-primary{
     box-shadow: none;
@@ -128,6 +131,14 @@ body{
     background-image: linear-gradient(to right, #318BF5,#0952A8);
 }
 
+.testimon{
+    width: 800px;
+    height: auto;
+}
+
+.wireframe2{
+    margin: auto;
+}
 /*--------- About Us Section--------*/
 
 #about-us{
@@ -178,7 +189,21 @@ body{
     width: 300px;
     height: auto;
     margin-top: 10%;
+    margin-bottom: 10%;
 }
+
+.hifistuff{
+    width: 60%;
+}
+
+.hifistuff2{
+    width: 37%;
+}
+
+h3{
+    padding-top: 20px;
+}
+
 
 .btn-outline-secondary{
     padding: 10px 15px;
